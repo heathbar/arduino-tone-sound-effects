@@ -171,7 +171,7 @@ void whiteNoise(int duration)
   {
     int freq = random(400, 600);
     tone_blocking(freq, i % 3);
-    noTone(11);
+    noTone(SPEAKER_PIN);
   }
 }
 
